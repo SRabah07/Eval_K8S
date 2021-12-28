@@ -1468,3 +1468,228 @@ my-deployment-eval   3/3     3            3           22s
 (base) ➜  Eval_K8S curl http://localhost:80/users 
 [{"user_id":1,"username":"August","email":"eu.neque.pellentesque@eumetus.edu"},{"user_id":2,"username":"Linda","email":"eleifend.Cras.sed@cursusnonegestas.com"},{"user_id":3,"username":"Kareem","email":"urna@nonummyultricies.co.uk"},{"user_id":4,"username":"Alyssa","email":"Nulla@sagittis.co.uk"},{"user_id":5,"username":"Demetria","email":"nibh@maurisa.ca"},{"user_id":6,"username":"Ahmed","email":"enim.nisl@ac.net"},{"user_id":7,"username":"Chantale","email":"dictum.eleifend.nunc@Praesentinterdumligula.edu"},{"user_id":8,"username":"Marny","email":"ut.ipsum.ac@vehicula.net"},{"user_id":9,"username":"Ryan","email":"Morbi.vehicula@turpis.ca"},{"user_id":10,"username":"Yuli","email":"suscipit.nonummy@lacuspedesagittis.net"},{"user_id":11,"username":"Cailin","email":"elit.Etiam.laoreet@pedemalesuada.org"},{"user_id":12,"username":"Berk","email":"ipsum.Donec.sollicitudin@consequatdolorvitae.ca"},{"user_id":13,"username":"Jacob","email":"venenatis.vel@metus.ca"},{"user_id":14,"username":"Keely","email":"id@consequatnec.ca"},{"user_id":15,"username":"Kameko","email":"sem.molestie.sodales@Vestibulumut.edu"},{"user_id":16,"username":"Amy","email":"ac.turpis.egestas@Duiscursus.edu"},{"user_id":17,"username":"Latifah","email":"et.rutrum.non@consectetuer.net"},{"user_id":18,"username":"Jameson","email":"erat.volutpat@Craseu.net"},{"user_id":19,"username":"Hasad","email":"rutrum.eu.ultrices@nuncsed.net"},{"user_id":20,"username":"Anthony","email":"ante@adipiscingelitAliquam.org"},{"user_id":21,"username":"Oscar","email":"enim.Etiam@erat.org"},{"user_id":22,"username":"Ivy","email":"malesuada@nislarcuiaculis.edu"},{"user_id":23,"username":"Hall","email":"Morbi.vehicula@penatibus.com"},{"user_id":24,"username":"Hilary","email":"Aenean.euismod.mauris@odio.ca"},{"user_id":25,"username":"Plato","email":"eu.eleifend.nec@consequatenimdiam.net"},{"user_id":26,"username":"Jin","email":"Proin.vel@rutrumeuultrices.com"},{"user_id":27,"username":"Cadman","email":"risus@sociosquadlitora.ca"},{"user_id":28,"username":"Kasper","email":"semper@fringillacursus.edu"},{"user_id":29,"username":"Sydney","email":"ornare.In.faucibus@tortornibhsit.co.uk"},{"user_id":30,"username":"Alexander","email":"sapien@Sedpharetra.ca"},{"user_id":31,"username":"Gisela","email":"at.velit.Cras@at.com"},{"user_id":32,"username":"Xenos","email":"ante@enimSuspendissealiquet.co.uk"},{"user_id":33,"username":"Chester","email":"libero.at@eunulla.ca"},{"user_id":34,"username":"Keelie","email":"suscipit.est@odio.edu"},{"user_id":35,"username":"Brett","email":"accumsan@pretiumneque.com"},{"user_id":36,"username":"Craig","email":"mollis.Duis.sit@ligula.net"},{"user_id":37,"username":"Ashton","email":"accumsan@parturient.net"},{"user_id":38,"username":"Yolanda","email":"in.aliquet@egetvenenatis.ca"},{"user_id":39,"username":"Lysandra","email":"odio.Aliquam@tincidunttempus.com"},{"user_id":40,"username":"Drake","email":"neque.et@bibendum.co.uk"},{"user_id":41,"username":"Wayne","email":"dolor@ipsum.edu"},{"user_id":42,"username":"Chaim","email":"convallis.convallis@sitamet.co.uk"},{"user_id":43,"username":"Gary","email":"dapibus@Donec.org"},{"user_id":44,"username":"Oren","email":"interdum.Nunc@infelisNulla.co.uk"},{"user_id":45,"username":"Pandora","email":"vel.nisl@Donec.edu"},{"user_id":46,"username":"Octavius","email":"pellentesque.eget@ami.edu"},{"user_id":47,"username":"James","email":"aliquet.molestie.tellus@ametfaucibus.net"},{"user_id":48,"username":"Nola","email":"Nunc@Etiamgravidamolestie.edu"},{"user_id":49,"username":"Rachel","email":"pretium@Phasellus.net"},{"user_id":50,"username":"Matthew","email":"suscipit@justo.org"},{"user_id":51,"username":"Holmes","email":"quis.turpis.vitae@diam.org"},{"user_id":52,"username":"Geraldine","email":"primis@odio.ca"},{"user_id":53,"username":"Griffin","email":"sit.amet@Donecfelisorci.net"},{"user_id":54,"username":"David","email":"fames@rutrumurna.org"},{"user_id":55,"username":"Kato","email":"Phasellus.at.augue@arcuSedet.edu"},{"user_id":56,"username":"Garth","email":"adipiscing@Donec.com"},{"user_id":57,"username":"Clarke","email":"Quisque.purus.sapien@Pellentesqueultricies.com"},{"user_id":58,"username":"Veda","email":"eu@aliquamerosturpis.org"},{"user_id":59,"username":"Harlan","email":"Aenean@infelisNulla.edu"},{"user_id":60,"username":"Peter","email":"eros@neque.org"},{"user_id":61,"username":"Simon","email":"ac@enim.org"},{"user_id":62,"username":"Barrett","email":"egestas.a@blanditcongueIn.co.uk"},{"user_id":63,"username":"Gary","email":"Morbi@massaSuspendisse.net"},{"user_id":64,"username":"Aubrey","email":"non.enim@lorem.org"},{"user_id":65,"username":"Kim","email":"est.Nunc@egetmetus.edu"},{"user_id":66,"username":"Connor","email":"faucibus.ut.nulla@acturpis.ca"},{"user_id":67,"username":"Cruz","email":"et@sodalespurus.org"},{"user_id":68,"username":"Reece","email":"felis.eget.varius@Aenean.net"},{"user_id":69,"username":"Sybill","email":"euismod.et@dolorDonecfringilla.edu"},{"user_id":70,"username":"Felicia","email":"Curabitur@hendreritconsectetuercursus.net"},{"user_id":71,"username":"Charity","email":"sem.elit.pharetra@molestie.org"},{"user_id":72,"username":"Tiger","email":"rutrum.magna@Sed.com"},{"user_id":73,"username":"Declan","email":"euismod.et@DonecfringillaDonec.net"},{"user_id":74,"username":"Octavius","email":"eu@non.com"},{"user_id":75,"username":"Kylynn","email":"sapien.gravida@Nuncmauris.net"},{"user_id":76,"username":"Teegan","email":"metus@Nulla.edu"},{"user_id":77,"username":"Kane","email":"Nulla.interdum@adui.ca"},{"user_id":78,"username":"Geraldine","email":"ligula.Aliquam@non.net"},{"user_id":79,"username":"Candace","email":"dui.quis.accumsan@mauris.co.uk"},{"user_id":80,"username":"Walter","email":"Proin.non@acfermentumvel.edu"},{"user_id":81,"username":"Hedley","email":"dis.parturient@nascetur.co.uk"},{"user_id":82,"username":"Heather","email":"est.mauris@eratvolutpatNulla.net"},{"user_id":83,"username":"Guinevere","email":"vitae.aliquam@nullamagna.ca"},{"user_id":84,"username":"Lewis","email":"consectetuer.ipsum@erat.com"},{"user_id":85,"username":"Skyler","email":"a.ultricies.adipiscing@Integer.co.uk"},{"user_id":86,"username":"Daniel","email":"cursus.Nunc@et.net"},{"user_id":87,"username":"Norman","email":"lorem.ut@Mauriseuturpis.net"},{"user_id":88,"username":"Chaney","email":"ut.cursus@in.net"},{"user_id":89,"username":"Lenore","email":"sodales@ornare.net"},{"user_id":90,"username":"Veronica","email":"quis@scelerisque.edu"},{"user_id":91,"username":"Imelda","email":"nibh.lacinia.orci@cursusNuncmauris.net"},{"user_id":92,"username":"Nolan","email":"et.magnis.dis@leo.net"},{"user_id":93,"username":"Lysandra","email":"ut.ipsum@quis.net"},{"user_id":94,"username":"Noel","email":"primis@Aenean.edu"},{"user_id":95,"username":"Kyla","email":"Nunc.commodo.auctor@variusultricesmauris.co.uk"},{"user_id":96,"username":"Allen","email":"metus.In@idnuncinterdum.com"},{"user_id":97,"username":"Yardley","email":"fringilla@Quisque.org"},{"user_id":98,"username":"Rigel","email":"ornare@augueeutempor.ca"},{"user_id":99,"username":"Keefe","email":"mattis.Integer@lectussit.edu"},{"user_id":100,"username":"Abbot","email":"Cum.sociis@risusvariusorci.ca"}]%                                         
 (base) ➜  Eval_K8S 
+
+
+--- Once we have a namspace, I tried to freeze/limit DB Resources as I got error `kubectl logs` needs alos the namespace
+
+(base) ➜  Eval_K8S git:(master) ✗ ./delete.sh 
+Delete evaluation K8S resources within namespace 'my-evaluation-namespace '...
+namespace "my-evaluation-namespace" deleted
+(base) ➜  Eval_K8S git:(master) ✗ ./start.sh 
+Create evaluation K8S resources under 'my-evaluation-namespace' namespace...
+namespace/my-evaluation-namespace created
+configmap/my-config-map-eval created
+secret/my-secret-map-eval created
+deployment.apps/my-deployment-eval created
+service/my-service-eval created
+ingress.networking.k8s.io/my-ingress-eval created
+Waiting resources up...
+Evaluation K8S resources are: 
+NAME                                      READY   STATUS    RESTARTS   AGE
+pod/my-deployment-eval-6865c7b8cf-2sljv   2/2     Running   0          10s
+pod/my-deployment-eval-6865c7b8cf-5r79x   2/2     Running   0          10s
+pod/my-deployment-eval-6865c7b8cf-ckkqf   2/2     Running   0          10s
+
+NAME                      TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)    AGE
+service/my-service-eval   ClusterIP   10.107.47.7   <none>        9300/TCP   10s
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/my-deployment-eval   3/3     3            3           10s
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/my-deployment-eval-6865c7b8cf   3         3         3       10s
+Evaluation K8S Ingress is: 
+NAME              CLASS   HOSTS   ADDRESS   PORTS   AGE
+my-ingress-eval   nginx   *                 80      10s
+Checking status endpoint: 
+HTTP/1.1 200 OK
+Date: Tue, 28 Dec 2021 11:10:48 GMT
+Content-Type: application/json
+Content-Length: 1
+Connection: keep-alive
+
+1Checking users endpoint: 
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 28 Dec 2021 11:10:48 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+
+Internal Server ErrorChecking user => id=1 endpoint: 
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 28 Dec 2021 11:10:48 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+
+Internal Server Error%                                                                                                                                    
+(base) ➜  Eval_K8S git:(master) ✗ curl http://localhost:80/users
+[{"user_id":1,"username":"August","email":"eu.neque.pellentesque@eumetus.edu"},{"user_id":2,"username":"Linda","email":"eleifend.Cras.sed@cursusnonegestas.com"},{"user_id":3,"username":"Kareem","email":"urna@nonummyultricies.co.uk"},{"user_id":4,"username":"Alyssa","email":"Nulla@sagittis.co.uk"},{"user_id":5,"username":"Demetria","email":"nibh@maurisa.ca"},{"user_id":6,"username":"Ahmed","email":"enim.nisl@ac.net"},{"user_id":7,"username":"Chantale","email":"dictum.eleifend.nunc@Praesentinterdumligula.edu"},{"user_id":8,"username":"Marny","email":"ut.ipsum.ac@vehicula.net"},{"user_id":9,"username":"Ryan","email":"Morbi.vehicula@turpis.ca"},{"user_id":10,"username":"Yuli","email":"suscipit.nonummy@lacuspedesagittis.net"},{"user_id":11,"username":"Cailin","email":"elit.Etiam.laoreet@pedemalesuada.org"},{"user_id":12,"username":"Berk","email":"ipsum.Donec.sollicitudin@consequatdolorvitae.ca"},{"user_id":13,"username":"Jacob","email":"venenatis.vel@metus.ca"},{"user_id":14,"username":"Keely","email":"id@consequatnec.ca"},{"user_id":15,"username":"Kameko","email":"sem.molestie.sodales@Vestibulumut.edu"},{"user_id":16,"username":"Amy","email":"ac.turpis.egestas@Duiscursus.edu"},{"user_id":17,"username":"Latifah","email":"et.rutrum.non@consectetuer.net"},{"user_id":18,"username":"Jameson","email":"erat.volutpat@Craseu.net"},{"user_id":19,"username":"Hasad","email":"rutrum.eu.ultrices@nuncsed.net"},{"user_id":20,"username":"Anthony","email":"ante@adipiscingelitAliquam.org"},{"user_id":21,"username":"Oscar","email":"enim.Etiam@erat.org"},{"user_id":22,"username":"Ivy","email":"malesuada@nislarcuiaculis.edu"},{"user_id":23,"username":"Hall","email":"Morbi.vehicula@penatibus.com"},{"user_id":24,"username":"Hilary","email":"Aenean.euismod.mauris@odio.ca"},{"user_id":25,"username":"Plato","email":"eu.eleifend.nec@consequatenimdiam.net"},{"user_id":26,"username":"Jin","email":"Proin.vel@rutrumeuultrices.com"},{"user_id":27,"username":"Cadman","email":"risus@sociosquadlitora.ca"},{"user_id":28,"username":"Kasper","email":"semper@fringillacursus.edu"},{"user_id":29,"username":"Sydney","email":"ornare.In.faucibus@tortornibhsit.co.uk"},{"user_id":30,"username":"Alexander","email":"sapien@Sedpharetra.ca"},{"user_id":31,"username":"Gisela","email":"at.velit.Cras@at.com"},{"user_id":32,"username":"Xenos","email":"ante@enimSuspendissealiquet.co.uk"},{"user_id":33,"username":"Chester","email":"libero.at@eunulla.ca"},{"user_id":34,"username":"Keelie","email":"suscipit.est@odio.edu"},{"user_id":35,"username":"Brett","email":"accumsan@pretiumneque.com"},{"user_id":36,"username":"Craig","email":"mollis.Duis.sit@ligula.net"},{"user_id":37,"username":"Ashton","email":"accumsan@parturient.net"},{"user_id":38,"username":"Yolanda","email":"in.aliquet@egetvenenatis.ca"},{"user_id":39,"username":"Lysandra","email":"odio.Aliquam@tincidunttempus.com"},{"user_id":40,"username":"Drake","email":"neque.et@bibendum.co.uk"},{"user_id":41,"username":"Wayne","email":"dolor@ipsum.edu"},{"user_id":42,"username":"Chaim","email":"convallis.convallis@sitamet.co.uk"},{"user_id":43,"username":"Gary","email":"dapibus@Donec.org"},{"user_id":44,"username":"Oren","email":"interdum.Nunc@infelisNulla.co.uk"},{"user_id":45,"username":"Pandora","email":"vel.nisl@Donec.edu"},{"user_id":46,"username":"Octavius","email":"pellentesque.eget@ami.edu"},{"user_id":47,"username":"James","emai
+(base) ➜  Eval_K8S git:(master) ✗ ./delete.sh 
+Delete evaluation K8S resources within namespace 'my-evaluation-namespace '...
+namespace "my-evaluation-namespace" deleted
+(base) ➜  Eval_K8S git:(master) ✗ ./start.sh 
+Create evaluation K8S resources under 'my-evaluation-namespace' namespace...
+namespace/my-evaluation-namespace created
+configmap/my-config-map-eval created
+secret/my-secret-map-eval created
+deployment.apps/my-deployment-eval created
+service/my-service-eval created
+ingress.networking.k8s.io/my-ingress-eval created
+Evaluation K8S resources are: 
+NAME                                      READY   STATUS              RESTARTS   AGE
+pod/my-deployment-eval-6865c7b8cf-8pbfc   0/2     ContainerCreating   0          0s
+pod/my-deployment-eval-6865c7b8cf-pbsmk   0/2     ContainerCreating   0          0s
+pod/my-deployment-eval-6865c7b8cf-xrn5c   0/2     ContainerCreating   0          0s
+
+NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/my-service-eval   ClusterIP   10.108.78.148   <none>        9300/TCP   0s
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/my-deployment-eval   0/3     3            0           0s
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/my-deployment-eval-6865c7b8cf   3         3         0       0s
+Evaluation K8S Ingress is: 
+NAME              CLASS   HOSTS   ADDRESS   PORTS   AGE
+my-ingress-eval   nginx   *                 80      0s
+Waiting resources up...
+Evaluation K8S resources are: 
+NAME                                      READY   STATUS    RESTARTS   AGE
+pod/my-deployment-eval-6865c7b8cf-8pbfc   2/2     Running   0          16s
+pod/my-deployment-eval-6865c7b8cf-pbsmk   2/2     Running   0          16s
+pod/my-deployment-eval-6865c7b8cf-xrn5c   2/2     Running   0          16s
+
+NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/my-service-eval   ClusterIP   10.108.78.148   <none>        9300/TCP   16s
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/my-deployment-eval   3/3     3            3           16s
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/my-deployment-eval-6865c7b8cf   3         3         3       16s
+Checking status endpoint: 
+HTTP/1.1 200 OK
+Date: Tue, 28 Dec 2021 11:13:59 GMT
+Content-Type: application/json
+Content-Length: 1
+Connection: keep-alive
+
+1Checking users endpoint: 
+HTTP/1.1 200 OK
+Date: Tue, 28 Dec 2021 11:13:59 GMT
+Content-Type: application/json
+Content-Length: 7196
+Connection: keep-alive
+
+[{"user_id":1,"username":"August","email":"eu.neque.pellentesque@eumetus.edu"},{"user_id":2,"username":"Linda","email":"eleifend.Cras.sed@cursusnonegestas.com"},{"user_id":3,"username":"Kareem","email":"urna@nonummyultricies.co.uk"},{"user_id":4,"username":"Alyssa","email":"Nulla@sagittis.co.uk"},{"user_id":5,"username":"Demetria","email":"nibh@maurisa.ca"},{"user_id":6,"username":"Ahmed","email":"enim.nisl@ac.net"},{"user_id":7,"username":"Chantale","email":"dictum.eleifend.nunc@Praesentinterdumligula.edu"},{"user_id":8,"username":"Marny","email":"ut.ipsum.ac@vehicula.net"},{"user_id":9,"username":"Ryan","email":"Morbi.vehicula@turpis.ca"},{"user_id":10,"username":"Yuli","email":"suscipit.nonummy@lacuspedesagittis.net"},{"user_id":11,"username":"Cailin","email":"elit.Etiam.laoreet@pedemalesuada.org"},{"user_id":12,"username":"Berk","email":"ipsum.Donec.sollicitudin@consequatdolorvitae.ca"},{"user_id":13,"username":"Jacob","email":"venenatis.vel@metus.ca"},{"user_id":14,"username":"Keely","email":"id@consequatnec.ca"},{"user_id":15,"username":"Kameko","email":"sem.molestie.sodales@Vestibulumut.edu"},{"user_id":16,"username":"Amy","email":"ac.turpis.egestas@Duiscursus.edu"},{"user_id":17,"username":"Latifah","email":"et.rutrum.non@consectetuer.net"},{"user_id":18,"username":"Jameson","email":"erat.volutpat@Craseu.net"},{"user_id":19,"username":"Hasad","email":"rutrum.eu.ultrices@nuncsed.net"},{"user_id":20,"username":"Anthony","email":"ante@adipiscingelitAliquam.org"},{"user_id":21,"username":"Oscar","email":"enim.Etiam@erat.org"},{"user_id":22,"username":"Ivy","email":"malesuada@nislarcuiaculis.edu"},{"user_id":23,"username":"Hall","email":"Morbi.vehicula@penatibus.com"},{"user_id":24,"username":"Hilary","email":"Aenean.euismod.mauris@odio.ca"},{"user_id":25,"username":"Plato","email":"eu.eleifend.nec@consequatenimdiam.net"},{"user_id":26,"username":"Jin","email":"Proin.vel@rutrumeuultrices.com"},{"user_id":27,"username":"Cadman","email":"risus@sociosquadlitora.ca"},{"user_id":28,"username":"Kasper","email":"semper@fringillacursus.edu"},{"user_id":29,"username":"Sydney","email":"ornare.In.faucibus@tortornibhsit.co.uk"},{"user_id":30,"username":"Alexander","email":"sapien@Sedpharetra.ca"},{"user_id":31,"username":"Gisela","email":"at.velit.Cras@at.com"},{"user_id":32,"username":"Xenos","email":"ante@enimSuspendissealiquet.co.uk"},{"user_id":33,"username":"Chester","email":"libero.at@eunulla.ca"},{"user_id":34,"username":"Keelie","email":"suscipit.est@odio.edu"},{"user_id":35,"username":"Brett","email":"accumsan@pretiumneque.com"},{"user_id":36,"username":"Craig","email":"mollis.Duis.sit@ligula.net"},{"user_id":37,"username":"Ashton","email":"accumsan@parturient.net"},{"user_id":38,"username":"Yolanda","email":"in.aliquet@egetvenenatis.ca"},{"user_id":39,"username":"Lysandra","email":"odio.Aliquam@tincidunttempus.com"},{"user_id":40,"username":"Drake","email":"neque.et@bibendum.co.uk"},{"user_id":41,"username":"Wayne","email":"dolor@ipsum.edu"},{"user_id":42,"username":"Chaim","email":"convallis.convallis@sitamet.co.uk"},{"user_id":43,"username":"Gary","email":"dapibus@Donec.org"},{"user_id":44,"username":"Oren","email":"interdum.Nunc@infelisNulla.co.uk"},{"user_id":45,"username":"Pandora","email":"vel.nisl@Donec.edu"},{"user_id":46,"username":"Octavius","email":"pellentesque.eget@ami.edu"},{"user_id":47,"username":"James","email":"aliquet.molestie.tellus@ametfaucibus.net"},{"user_id":48,"username":"Nola","email":"Nunc@Etiamgravidamolestie.edu"},{"user_id":49,"username":"Rachel","email":"pretium@Phasellus.net"},{"user_id":50,"username":"Matthew","email":"suscipit@justo.org"},{"user_id":51,"username":"Holmes","email":"quis.turpis.vitae@diam.org"},{"user_id":52,"username":"Geraldine","email":"primis@odio.ca"},{"user_id":53,"username":"Griffin","email":"sit.amet@Donecfelisorci.net"},{"user_id":54,"username":"David","email":"fames@rutrumurna.org"},{"user_id":55,"username":"Kato","email":"Phasellus.at.augue@arcuSedet.edu"},{"user_id":56,"username":"Garth","email":"adipiscing@Donec.com"},{"user_id":57,"username":"Clarke","email":"Quisque.purus.sapien@Pellentesqueultricies.com"},{"user_id":58,"username":"Veda","email":"eu@aliquamerosturpis.org"},{"user_id":59,"username":"Harlan","email":"Aenean@infelisNulla.edu"},{"user_id":60,"username":"Peter","email":"eros@neque.org"},{"user_id":61,"username":"Simon","email":"ac@enim.org"},{"user_id":62,"username":"Barrett","email":"egestas.a@blanditcongueIn.co.uk"},{"user_id":63,"username":"Gary","email":"Morbi@massaSuspendisse.net"},{"user_id":64,"username":"Aubrey","email":"non.enim@lorem.org"},{"user_id":65,"username":"Kim","email":"est.Nunc@egetmetus.edu"},{"user_id":66,"username":"Connor","email":"faucibus.ut.nulla@acturpis.ca"},{"user_id":67,"username
+(base) ➜  Eval_K8S git:(master) ✗ git status 
+On branch master
+(base) ➜  Eval_K8S git:(master) ✗ ./start.sh 
+Create evaluation K8S resources under 'my-evaluation-namespace' namespace...
+namespace/my-evaluation-namespace created
+configmap/my-config-map-eval created
+secret/my-secret-map-eval created
+deployment.apps/my-deployment-eval created
+service/my-service-eval created
+ingress.networking.k8s.io/my-ingress-eval created
+Evaluation K8S resources are: 
+NAME                                      READY   STATUS              RESTARTS   AGE
+pod/my-deployment-eval-749567bc99-pzb57   0/2     ContainerCreating   0          0s
+pod/my-deployment-eval-749567bc99-xg4zf   0/2     ContainerCreating   0          0s
+pod/my-deployment-eval-749567bc99-zq9hz   0/2     ContainerCreating   0          0s
+
+NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/my-service-eval   ClusterIP   10.105.134.88   <none>        9300/TCP   0s
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/my-deployment-eval   0/3     3            0           0s
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/my-deployment-eval-749567bc99   3         3         0       0s
+Evaluation K8S Ingress is: 
+NAME              CLASS   HOSTS   ADDRESS   PORTS   AGE
+my-ingress-eval   nginx   *                 80      0s
+Waiting resources up...
+Evaluation K8S resources are: 
+NAME                                      READY   STATUS    RESTARTS   AGE
+pod/my-deployment-eval-749567bc99-pzb57   2/2     Running   1          15s
+pod/my-deployment-eval-749567bc99-xg4zf   2/2     Running   1          15s
+pod/my-deployment-eval-749567bc99-zq9hz   2/2     Running   1          15s
+
+NAME                      TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+service/my-service-eval   ClusterIP   10.105.134.88   <none>        9300/TCP   15s
+
+NAME                                 READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/my-deployment-eval   3/3     3            3           15s
+
+NAME                                            DESIRED   CURRENT   READY   AGE
+replicaset.apps/my-deployment-eval-749567bc99   3         3         3       15s
+Checking status endpoint: 
+HTTP/1.1 200 OK
+Date: Tue, 28 Dec 2021 11:30:49 GMT
+Content-Type: application/json
+Content-Length: 1
+Connection: keep-alive
+
+1Checking users endpoint: 
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 28 Dec 2021 11:30:49 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+
+Internal Server ErrorChecking user => id=1 endpoint: 
+HTTP/1.1 500 Internal Server Error
+Date: Tue, 28 Dec 2021 11:30:49 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 21
+Connection: keep-alive
+
+Internal Server Error%                                                                                                                                          
+(base) ➜  Eval_K8S git:(master) ✗ kubectl get pods --namespace=my-evaluation-namespace 
+NAME                                  READY   STATUS      RESTARTS   AGE
+my-deployment-eval-749567bc99-pzb57   1/2     OOMKilled   1          28s
+my-deployment-eval-749567bc99-xg4zf   1/2     OOMKilled   1          28s
+my-deployment-eval-749567bc99-zq9hz   1/2     OOMKilled   1          28s
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57 -c mysql-db
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-pzb57" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl get pods --namespace=my-evaluation-namespace        
+NAME                                  READY   STATUS             RESTARTS   AGE
+my-deployment-eval-749567bc99-pzb57   1/2     CrashLoopBackOff   2          62s
+my-deployment-eval-749567bc99-xg4zf   1/2     CrashLoopBackOff   2          62s
+my-deployment-eval-749567bc99-zq9hz   1/2     CrashLoopBackOff   2          62s
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-pzb57" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-xg4zf
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-xg4zf" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-zq9hz
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-zq9hz" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl get pods --namespace=my-evaluation-namespace        
+NAME                                  READY   STATUS             RESTARTS   AGE
+my-deployment-eval-749567bc99-pzb57   1/2     CrashLoopBackOff   3          101s
+my-deployment-eval-749567bc99-xg4zf   1/2     CrashLoopBackOff   3          101s
+my-deployment-eval-749567bc99-zq9hz   1/2     CrashLoopBackOff   3          101s
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-pzb57" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57
+Error from server (NotFound): pods "my-deployment-eval-749567bc99-pzb57" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl get pods --namespace=my-evaluation-namespace
+NAME                                  READY   STATUS             RESTARTS   AGE
+my-deployment-eval-749567bc99-pzb57   1/2     CrashLoopBackOff   4          2m39s
+my-deployment-eval-749567bc99-xg4zf   1/2     CrashLoopBackOff   4          2m39s
+my-deployment-eval-749567bc99-zq9hz   1/2     CrashLoopBackOff   4          2m39s
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57 -c mysql-db --namespace=my-evaluation-namespac
+Error from server (NotFound): namespaces "my-evaluation-namespac" not found
+(base) ➜  Eval_K8S git:(master) ✗ kubectl logs my-deployment-eval-749567bc99-pzb57 -c mysql-db --namespace=my-evaluation-namespace
+2021-12-28 11:32:37+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.25-1debian10 started.
+2021-12-28 11:32:37+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+2021-12-28 11:32:37+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.25-1debian10 started.
+2021-12-28 11:32:37+00:00 [Note] [Entrypoint]: Initializing database files
+2021-12-28T11:32:37.693959Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.25) initializing of server in progress as process 44
+2021-12-28T11:32:37.700164Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2021-12-28T11:32:38.435118Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2021-12-28T11:32:41.423432Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+/usr/local/bin/docker-entrypoint.sh: line 191:    44 Killed                  "$@" --initialize-insecure --default-time-zone=SYSTEM
+(base) ➜  Eval_K8S git:(master) ✗ 

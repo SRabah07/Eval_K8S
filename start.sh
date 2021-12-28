@@ -13,7 +13,7 @@ echo "Evaluation K8S Ingress is: "
 kubectl get ingress --namespace=my-evaluation-namespace
 
 echo "Waiting resources up..."
-sleep 15
+sleep 35
 
 echo "Evaluation K8S resources are: "
 kubectl get all --namespace=my-evaluation-namespace
