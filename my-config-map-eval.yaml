@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-config-map-eval
+data:
+  DATABASE_URL: 127.0.0.1:3306

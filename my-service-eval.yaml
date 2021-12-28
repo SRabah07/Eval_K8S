@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service-eval
+  labels:
+    app: my-service-eval
+spec:
+  type: ClusterIP
+  selector:
+    app: my-eval-api
+  ports:
+  - port: 9300
+    targetPort: 8000
+

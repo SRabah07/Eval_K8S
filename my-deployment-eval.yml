@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-deployment-eval
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-eval-api
+  template:
+    metadata:
+      labels:
+        app: my-eval-api
+    spec:
+      containers:
+      - name: mysql-db
+        image: datascientest/mysql-k8s:1.0.0
+      - name: api
+        image: k8s-evaluation-api:0.0.1
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+          - containerPort: 8000
+        envFrom:
+          - configMapRef:
+              name: my-config-map-eval
+        env:
+          - name: DATABASE_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name:  my-secret-map-eval
+                key: DATABASE_PASSWORD
