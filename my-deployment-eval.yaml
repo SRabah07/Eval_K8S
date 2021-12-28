@@ -20,7 +20,7 @@ spec:
             memory: "512Mi"
             cpu: "500m"
       - name: api
-        image: k8s-evaluation-api:0.0.1
+        image: rsalim1/k8s-evaluation-api:0.0.1
         resources:
           limits:
             memory: "128Mi"

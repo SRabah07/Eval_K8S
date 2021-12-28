@@ -1693,3 +1693,44 @@ Error from server (NotFound): namespaces "my-evaluation-namespac" not found
 2021-12-28T11:32:41.423432Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
 /usr/local/bin/docker-entrypoint.sh: line 191:    44 Killed                  "$@" --initialize-insecure --default-time-zone=SYSTEM
 (base) ➜  Eval_K8S git:(master) ✗ 
+
+
+- Push Image
+
+(base) ➜  Eval_K8S git:(master) ✗ ll
+total 344
+(base) ➜  Eval_K8S git:(master) docker image k8s-evaluation-api:0.0.1
+
+Usage:  docker image COMMAND
+
+Manage images
+
+Commands:
+  build       Build an image from a Dockerfile
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Display detailed information on one or more images
+  load        Load an image from a tar archive or STDIN
+  ls          List images
+  prune       Remove unused images
+  pull        Pull an image or a repository from a registry
+  push        Push an image or a repository to a registry
+  rm          Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+
+Run 'docker image COMMAND --help' for more information on a command.
+(base) ➜  Eval_K8S git:(master) docker image ls | grep k8s-evaluation-api
+k8s-evaluation-api                    0.0.1      d37b8f7ba779   14 hours ago    565MB
+(base) ➜  Eval_K8S git:(master) docker tag k8s-evaluation-api:0.0.1 rsalim1/k8s-evaluation-api:0.0.1
+(base) ➜  Eval_K8S git:(master) docker image ls | grep k8s-evaluation-api                           
+k8s-evaluation-api                    0.0.1      d37b8f7ba779   14 hours ago    565MB
+rsalim1/k8s-evaluation-api            0.0.1      d37b8f7ba779   14 hours ago    565MB
+(base) ➜  Eval_K8S git:(master) docker push rsalim1/k8s-evaluation-api:0.0.1  
+The push refers to repository [docker.io/rsalim1/k8s-evaluation-api]
+b77dbae837a5: Pushed 
+5f70bf18a086: Mounted from rsalim1/ml-sentiment-analysis-api-test 
+033af2707b88: Pushed 
+9f54eef41275: Mounted from library/ubuntu 
+0.0.1: digest: sha256:e7e633e1fbcaebb879701f9d3afdd6051c52b0bda37789f3045cf3a86b8612c2 size: 1156
+(base) ➜  Eval_K8S git:(master) 
