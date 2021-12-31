@@ -600,7 +600,7 @@ This API can be deployed into K8S cluster. It uses the different K8S resources/O
 I provide two bash shell script to help deploying this API:
 
 - `delete.sh` will delete the namespace `my-evaluation-namespace` and all related resources. You can use this script to cleanup you environment for example
-- `start.sh` this script will create all needed resources: namespace, config map, secret map, deployment, service and ingress. Once all resource up (right now I am just using a simple sleep), I test the three main endpoints. 
+- `start.sh` this script will create all needed resources: namespace, config map, secret map, deployment, service and ingress. Once all resource up (right now I am just using a simple sleep), I test the three main endpoints. If you are using Minikube, please run this `./start.sh minikube` it will enable Ingress and show the Minikube ip address. 
 
 
 

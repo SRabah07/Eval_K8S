@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-deployment-eval
+  labels:
+    app: my-deployment-eval
 spec:
   replicas: 3
   selector:
@@ -18,13 +20,13 @@ spec:
         resources:
           limits:
             memory: "512Mi"
-            cpu: "500m"
+            cpu: "128m"
       - name: api
         image: rsalim1/k8s-evaluation-api:0.0.1
         resources:
           limits:
             memory: "128Mi"
-            cpu: "500m"
+            cpu: "128m"
         ports:
           - containerPort: 8000
         envFrom:
