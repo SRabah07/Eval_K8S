@@ -1,6 +1,6 @@
 # Context
 
-This is the Kubernetes evaluation. It main purpose is setup a K8S cluster to deploy a User management API available at [Here](https://hub.docker.com/repository/docker/rsalim1/k8s-evaluation-api) and uses a MYSQL Database [Here](https://hub.docker.com/r/datascientest/mysql-k8s).
+This is the Kubernetes evaluation. It main purpose is setup a K8S cluster to deploy a User management API available [Here](https://hub.docker.com/repository/docker/rsalim1/k8s-evaluation-api) and uses a MYSQL Database [Here](https://hub.docker.com/r/datascientest/mysql-k8s).
 
 ## Docker compose
 
@@ -584,7 +584,7 @@ This API can be deployed into K8S cluster. It uses the different K8S resources/O
 - Ingress to route outside the traffic. For this resource an extra work is need. It depends on the K8S used, it might be necessary to install / enable an Ingress Controller, more on that [Here](https://kubernetes.io/docs/concepts/services-networking/ingress/):
 
     - **a)** If you are using Minikube `minikube addons enable ingress`.
-    - **b)** If you are using Kubernetes provided by Docker Desktop application (MacOS/Windows) you can use the `NGINX Ingress Controller` and install it following the [documentation](https://kubernetes.github.io/ingress-nginx/deploy/). In my case I used [Helm](https://helm.sh/docs/topics/charts/#:~:text=Helm%20uses%20a%20packaging%20format,%2C%20caches%2C%20and%20so%20on.) to install the Ingress Controller resources. Once you have Helm installed [Here](https://helm.sh/docs/helm/helm_install/). You can use the command below as explained in the [Here](https://kubernetes.github.io/ingress-nginx/deploy/)
+    - **b)** If you are using Kubernetes provided by Docker Desktop application (MacOS/Windows) you can use the `NGINX Ingress Controller` and install it following the [documentation](https://kubernetes.github.io/ingress-nginx/deploy/). In my case I used [Helm](https://helm.sh/docs/topics/charts/#:~:text=Helm%20uses%20a%20packaging%20format,%2C%20caches%2C%20and%20so%20on.) to install the Ingress Controller resources. Once you have Helm installed [Here](https://helm.sh/docs/helm/helm_install/). You can use the command below as explained in the [Ingress Documentation](https://kubernetes.github.io/ingress-nginx/deploy/)
 
     ```bash
     kubectl create namespace ingress-nginx
@@ -600,7 +600,7 @@ This API can be deployed into K8S cluster. It uses the different K8S resources/O
 I provide two bash shell script to help deploying this API:
 
 - `delete.sh` will delete the namespace `my-evaluation-namespace` and all related resources. You can use this script to cleanup you environment for example
-- `start.sh` this script will create all needed resources: namespace, config map, secret map, deployment, service and ingress. Once all resource up (right now I ma just using a simple sleep), I test the three main endpoints. 
+- `start.sh` this script will create all needed resources: namespace, config map, secret map, deployment, service and ingress. Once all resource up (right now I am just using a simple sleep), I test the three main endpoints. 
 
 
 
